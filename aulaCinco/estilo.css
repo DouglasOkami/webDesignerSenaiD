@@ -1,3 +1,30 @@
-.vermelho{
-    color: red;
-   }
+:root{
+    --cor-fundo:rgb(0, 228, 99);
+    --cor-houver:rgb(0, 0, 0);
+    --cor-primaria:rgb(231,241,136);
+}
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0%;
+    background-color: var(--cor-fundo);
+}
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+.dp-menu ul li a{
+   color: var(--cor-primaria);
+   text-decoration: none;
+   display: inline-block;
+   padding: 3px;
+} 
+.dp-menu ul li a:hover{
+    background-color: var(--cor-houver);
+}
+.dp-menu ul li a:hover ul{
+    display: block;
+}
+.dp-menu ul ul{
+    width: 800px;
+    left: 0;
+}
