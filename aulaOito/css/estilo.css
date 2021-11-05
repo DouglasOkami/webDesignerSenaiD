@@ -8,3 +8,11 @@
     left: 300px;
     top: 200px ;
 }
+/* diminue a imagem sem perda de qualidade*/
+.image-carrosel{
+    object-fit: cover;
+    height: 540px;
+}
+.font{
+    color: rgb(4, 255, 242);
+}
