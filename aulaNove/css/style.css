@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.desktop p{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(109, 153, 51);
+}
+.tablet p{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(51, 133, 153);
+}
+.phone p{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(153, 51, 51);
+}
+.geral{
+    display: flex;
+}
+.geral img{
+    width: 200px;
+    height: 200px;
+    padding: 5% 0 0 0;
+    margin-left: 200px;
+}
