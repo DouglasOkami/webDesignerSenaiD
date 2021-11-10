@@ -2,6 +2,11 @@
 *{
     font-family: "Poppins",sans-serif;
 }
+body{
+    background: linear-gradient(45deg,#fff,#000000);
+    
+    background-size: cover;
+}
 .noticias{
     width: 70%;
     max-width: 1440;
