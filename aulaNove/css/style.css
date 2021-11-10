@@ -80,6 +80,13 @@
     .desktop p{
         color: rgb(155, 179, 19);
     }
+    .phone p{
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(153, 51, 51);
+        margin-left: 50px;
+    }
     .geral{
         display: flex;
     }
