@@ -38,6 +38,11 @@ nav ul li a{
     padding: 31px 25px;
     text-transform: uppercase;
 }
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 @media(max-width:768px){
     #links{
         position: fixed;
@@ -62,5 +67,10 @@ nav ul li a{
     }
     nav ul li a{
         font-size: 20px;
+    }
+    img{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }

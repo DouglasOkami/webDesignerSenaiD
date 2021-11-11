@@ -20,9 +20,15 @@
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
+    <img src="assets/fundo.jpg" alt="imagem-fundo">
     <script>
         function mostraMenu(){
             var menu = document.getElementById("links");
+            if (menu.style.display == "block") {
+                menu.style.display = "none";
+            }else{
+                menu.style.display = "block";
+            }
         }
     </script>
 </body>
