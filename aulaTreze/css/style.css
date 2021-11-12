@@ -14,4 +14,83 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+.azul{
+    width: 500px;
+    height: 250px;
+    background-color: springgreen;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.azul img{
+    width: 40%;
+    height: 100px;
+}
+.azul .texto{
+    width: 40%;
+}
+.verde{
+    width: 500px;
+    height: 250px;
+    background-color:teal;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.verde img{
+    width: 40%;
+    height: 100px;
+}
+.verde .texto{
+    width: 40%;
+}
+
+/* --código professor */
+.vermelho{
+    width: 600px;
+    height: 470px;
+    background-color:chartreuse;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vermelho img{
+    width: 90%;
+    height: 350px;
+}
+.vermelho h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.vermelho p{
+    text-align: center;
+}
+/* --meu código-- 
+.vermelho{
+    margin-top: -61px;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    background-color:chartreuse;
+}
+.vermelho img{
+    padding: 30px;
+    width: 70%;
+    height: 400px;
+}
+.vermelho .texto{
+    width: 90%;
+}
+*/
