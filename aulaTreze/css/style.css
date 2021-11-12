@@ -7,6 +7,12 @@
     font-family:"Poppins",sans-serif;
 }
 
+body{
+    background-image: url(img/Evening.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .cinza{
     width: 1440px;
     height: 600px;
@@ -94,3 +100,37 @@
     width: 90%;
 }
 */
+.preto{
+    margin-left: 30px;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(133, 0, 0);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.preto img{
+    width: 40%;
+    height: 100px;
+}
+.preto .texto{
+    width: 40%;
+}
+.rosa{
+    margin-left: 30px;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(36, 71, 54);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rosa img{
+    width: 40%;
+    height: 100px;
+}
+.rosa .texto{
+    width: 40%;
+}
