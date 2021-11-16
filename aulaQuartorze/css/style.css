@@ -62,7 +62,76 @@ body{
     color: #fff;
     border-bottom: solid 2px #FFAF00;
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 .banner-text p{
+    font-size: 44px;
+    color: rgb(14, 165, 0);
+    text-transform: uppercase;
+}
+.mouse{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+}
+.artigo-sobre img{
+    width: 400px;
+    height: 450px;
+}
+.artigo-sobre p{
     color: #fff;
 }
+.sobre h2{
+    color:  #47b92b;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.artigo-sobre{
+    display: flex;
+    justify-content: space-between;
+}
+.artigo-text-sobre{
+    width: 500px;
+}
+.artigo-text-sobre h3:nth-child(1){
+    font-size: 24px;
+    color: rgb(143, 60, 60);
+}
+.artigo-text-sobre h3:nth-child(2){
+    color: rgb(42, 15, 15);
+    font-size: 43px;
+    text-transform: uppercase;
+}
+.artigo-text-sobre p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.info{
+    width: 100%;
+    height: 200px;
+    text-transform: uppercase;
+}
+.info-card h4{
+    color: red;
+    font-size: 24px;
+}
+.info-card p{
+    width: 250px;
+    color: red;
+    font-size: 28px;
+    border: solid 1px #000000;
+    text-align: center; 
+    padding: 1rem;  
+}
+/* 
+.arrumando{
+    display: flex;
+    padding: 4rem;
+}
+ */
+ .info-flex{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
