@@ -116,12 +116,12 @@ body{
     text-transform: uppercase;
 }
 .info-card h4{
-    color: rgb(40, 145, 243);
+    color: rgb(0, 75, 144);
     font-size: 24px;
 }
 .info-card p{
     width: 250px;
-    color: rgb(0, 132, 255);
+    color: rgb(2, 61, 117);
     font-size: 28px;
     border: solid 1px #000000;
     text-align: center; 
@@ -148,7 +148,7 @@ body{
 }
 .end-text{
     width: 500px;
-    height: 310px;
+    height: 345px;
     background-color: #010010;
     border: solid 2px #340b65;
 }
@@ -170,6 +170,40 @@ body{
     background-color: rgb(25, 0, 255);
     color: #fff;
 }
+.rodape img{
+    
+}
 .azul{
-    background-color: #0152889a;
+    background-color: #3587f3;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #04AA6D; /* Add an active/current color */
+  }
+  .image-carrosel{
+    object-fit: cover;
+    height: 540px;
+}
+.font{
+    color: #fff;
 }
