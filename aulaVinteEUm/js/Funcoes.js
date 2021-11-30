@@ -9,3 +9,6 @@ function minhaF(){
 function mudarPVermelho(){
     document.getElementById("paragrafo").style.color = 'red';
 }
+function mudarPVerde(){
+    document.getElementById("paragrafo").style.color = 'green';
+}
