@@ -10,6 +10,6 @@ function nMedia(){
     else if(media >= 3 && media < 6){
         document.getElementById("Resultado").innerHTML = `${nome} sua média é ${media} <b>EXAME</b>`;
     }else if(media < 3){
-        document.getElementById("Resultado").innerHTML = `${nome} sua média é ${media} <b>REPROVADO</b>`;
+        document.getElementById("Resultado").innerHTML = `${nome} sua média é ${media} REPROVADO`;
     }
 }
