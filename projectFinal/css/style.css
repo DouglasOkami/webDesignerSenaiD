@@ -8,9 +8,9 @@
 body, ul, li, p{
     list-style: none;
     font-size: 1.2rem;
-    font-family:sans-serif;
-    
 }
+
+/*Parte Menu  */
 .topo{
     background-color: #E42525;
     display: flex;
@@ -29,17 +29,21 @@ body, ul, li, p{
 .menu li a{
     padding: 20px;
 }
+.menu li a.linkCor{
+   margin-top: 20px;
+}
 .titulo-link{
     color: #000000;
     text-decoration: none;
     font-size: 55px;
+    margin-top: 10px;
 }
-.link-cor{
+.linkCor{
     color: #000000;
     text-decoration: none;
     font-size: 25px;
-
 }
+
 button{
     background: #fff;
     color: #E42525;
@@ -48,12 +52,49 @@ button{
     margin-top: -5px;
     cursor: pointer;
     border-radius: 10px;
+    transition: all .3s ;
+}
+button:hover{
+    background: #000000;
+    color: #E42525;
+}
+/* Parte Carousel */
+html,
+body {
+  position: relative;
+  height: 100%;
 }
 
-.image-carrosel{
+body {
+  background: rgb(255, 255, 255);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -350px;
+  margin-top: -350px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.img-carousel{
     object-fit: cover;
     height: 540px;
 }
-.carrosel{
-    margin-top: 30px;
-}
+
