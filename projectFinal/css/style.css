@@ -98,3 +98,17 @@ body {
     height: 540px;
 }
 
+/* informações */
+.informacoes{
+    display: block;
+    margin-left: 20px;
+    margin-top: 600px;
+    font-size: 30px;
+}
+#image-info{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 900px;
+    margin-top: -170px;
+}
