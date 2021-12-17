@@ -10,7 +10,7 @@ body, ul, li, p{
     font-size: 1.2rem;
 }
 
-/*Parte Menu  */
+/*Style Menu*/
 .topo{
     background-color: #E42525;
     display: flex;
@@ -18,6 +18,7 @@ body, ul, li, p{
     padding: 20px;
     align-items: center;
     height: 80px;
+    background-attachment: fixed;
 }
 .menu{
     display: flex;
@@ -38,10 +39,17 @@ body, ul, li, p{
     font-size: 55px;
     margin-top: 10px;
 }
+.titulo-link:hover{
+    color: #fff;
+}
+
 .linkCor{
     color: #000000;
     text-decoration: none;
     font-size: 25px;
+}
+.linkCor:hover{
+    color: #fff;
 }
 
 button{
@@ -58,7 +66,7 @@ button:hover{
     background: #000000;
     color: #E42525;
 }
-/* Parte Carousel */
+/* Style Carousel */
 html,
 body {
   position: relative;
@@ -98,7 +106,7 @@ body {
     height: 540px;
 }
 
-/* informações */
+/*Style Informações */
 .informacoes{
     display: block;
     margin-left: 20px;
@@ -110,5 +118,222 @@ body {
     width: 100px;
     height: 100px;
     margin-left: 900px;
-    margin-top: -170px;
+    margin-top: -220px;
 }
+#image-senai-grande{
+    margin-left: 1500px;
+    margin-top: -120px;
+}
+#image-senai-pequena{
+    display: none;
+}
+.texto-ul .texto-li{
+    margin-left: 50px;
+    list-style-type:initial;
+}
+
+/*Style Footer*/
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+    gap: 1.5rem;
+    background-color: #E42525;
+    margin-top: 20px;
+}
+
+.footer .box-container-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 2fr));
+    gap: 1.5rem;
+    background-color: #E42525;
+    margin-top: 20px;
+}
+
+.footer .box-container-img .box .img-footer-1{
+    margin-left: 30px;
+    margin-top:240px;
+}
+.footer .box-container-img .box .img-footer-2{
+    margin-left: 30px;
+}
+
+
+.footer .box-container .box h3{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color:  #000000;
+    background-color: #E42525;
+    margin-left: 20px;
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color:  #000000;
+    background-color: #E42525;
+    margin-left: 20px;
+}
+
+.footer .box-container .box a:hover{
+   color: #fff;
+}
+.footer .credit{
+    background-color: #E42525;
+    text-align: center;
+    border-top:.1rem solid rgba(0, 0,0, .1);
+    font-size: 2rem;
+    padding: .5rem;
+    padding-top: 1.5rem;
+}
+ 
+hr{
+    height: 3px;
+    background-color: #000000;
+}
+
+/* Menu Responsivo*/
+header .icons #menu-bars{
+    display: none;
+}
+
+header .icons{
+    display: none;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: #E42525;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color: #fff;
+    background: #E42525;
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #E42525;
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover{
+color: #fff;
+background: #000000;
+transform: rotate(360deg);
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+/* Media Queris*/
+
+@media (max-width:991px){
+
+    html{
+    font-size: 55%;   
+    }
+
+    header{
+    padding: 1rem 2rem;
+    }
+
+    section{
+        padding: 2rem;
+        }
+}
+
+
+@media (max-width:768px){
+
+    header .icons #menu-bars{
+        display: block;
+        display: inline-block;
+    }
+    
+    header .icons{
+        display:block;
+    }
+
+    .swiper{
+        width: 300px;
+        height: 300px;
+        margin-top: -280px;
+        margin-left: -170px;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;left: 0; right: 0;
+        background: #fff;
+        /*o rem ta controlando o tamanho da barrinha*/
+        border-top: .1rem solid rgba(0, 0,0, .2);
+        border-bottom: .1rem solid rgba(0, 0,0, .2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a{
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: #eee;
+    }
+
+    .informacoes{
+        display: block;
+        margin-left: 20px;
+        margin-top: 600px;
+        font-size: 20px;
+        margin-top: 300px;
+    }
+    #image-info{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: -120px;
+}
+    #image-senai-grande{
+   display: none;
+}
+    #image-senai-pequena{
+    display: block;
+    margin-top: 100px;
+    margin-left: 450px;
+    width: 200px;
+}
+
+.texto-ul .texto-li{
+    margin-left: 50px;
+    list-style-type:initial;
+}
+
+   
+}   
+
+@media (max-width:450px){
+
+    html{
+    font-size: 50%;   
+    }
+
+} 

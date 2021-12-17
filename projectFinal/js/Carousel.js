@@ -5,7 +5,7 @@
     },
   });
 */
-
+// Carousel JS
 var swiper = new Swiper(".mySwiper", {
     effect: "cube",
     grabCursor: true,
@@ -19,6 +19,7 @@ var swiper = new Swiper(".mySwiper", {
         delay: 2500,
         disableOnInteraction: false,
       },
+    autoPlay:true,
     pagination: {
       el: ".swiper-pagination",
     },
@@ -32,5 +33,5 @@ var swiper = new Swiper(".mySwiper", {
         1000:{
             items:4
         }
-    },autoPlay:true
+    }
   });
