@@ -20,25 +20,29 @@ body, ul, li, p{
     height: 80px;
     background-attachment: fixed;
 }
+
 .menu{
     display: flex;
 }
+
 .menu li{
     margin-left: 20px;
-
 }
 .menu li a{
     padding: 20px;
 }
+
 .menu li a.linkCor{
    margin-top: 20px;
 }
+
 .titulo-link{
     color: #000000;
     text-decoration: none;
     font-size: 55px;
     margin-top: 10px;
 }
+
 .titulo-link:hover{
     color: #fff;
 }
@@ -48,6 +52,7 @@ body, ul, li, p{
     text-decoration: none;
     font-size: 25px;
 }
+
 .linkCor:hover{
     color: #fff;
 }
@@ -62,10 +67,12 @@ button{
     border-radius: 10px;
     transition: all .3s ;
 }
+
 button:hover{
     background: #000000;
     color: #E42525;
 }
+
 /* Style Carousel */
 html,
 body {
