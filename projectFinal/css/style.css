@@ -278,14 +278,15 @@ header .icons #menu-bars{
     .swiper{
         width: 300px;
         height: 300px;
-        margin-top: -280px;
+        margin-top: -180px;
         margin-left: -170px;
     }
 
     header .navbar{
         position: absolute;
         top: 100%;left: 0; right: 0;
-        background: #fff;
+        top: 100px;
+        background: rgb(0, 0, 0);
         /*o rem ta controlando o tamanho da barrinha*/
         border-top: .1rem solid rgba(0, 0,0, .2);
         border-bottom: .1rem solid rgba(0, 0,0, .2);
@@ -310,7 +311,7 @@ header .icons #menu-bars{
         margin-left: 20px;
         margin-top: 600px;
         font-size: 20px;
-        margin-top: 300px;
+        margin-top: 400px;
     }
     #image-info{
     display: block;
@@ -332,6 +333,23 @@ header .icons #menu-bars{
 .texto-ul .texto-li{
     margin-left: 50px;
     list-style-type:initial;
+}
+button{
+    background: #fff;
+    color: #E42525;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s ;
+    height: 55px;
+    margin-left: 20px;
+}
+
+button:hover{
+    background: #E42525;
+    color: #000000;
 }
 
    
