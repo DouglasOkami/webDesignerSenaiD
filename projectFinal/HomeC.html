@@ -5,37 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/teste.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Senai CARD</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- Menu  Starts-->
-    <header class="topo">
-        <a href="http://127.0.0.1:5500/Home.html" class="titulo-link link-cor">SECARD</a>
+    <!-- Header section starts -->
+    <header>
+        <a href="#" class="logo">SECARD.</a>
         <nav class="navbar">
-            <ul class="menu">
-                
-                <li><a class="active linkCor" href="#home">Home</a></li>
-                <li><a href="#Login" class="linkCor">Login</a></li>
-                <li><a href="#contato" class="linkCor">Contato</a></li>
-                <button type="button">Criar Cartão</button>
-            </ul>
+            <a class="active" href="#home">Home</a>
+            <a href="#">Login</a>
+            <a href="#contato">Contato</a>
+            <a href="#card">Criar Card</a>
         </nav>
 
         <div class="icons">
             <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
         </div>
 
     </header>
+    <!-- Header section ends -->
+    <!-- Search Form Starts-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here ..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- Search Form Ends-->
     <!-- Menu  Ends-->
     <!-- Carousel Starts-->
-    <Section>
+    <br><br><br>
+    <section>
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" id="home">
                 <div class="swiper-slide img-carousel"><img
                         src="image/usuarios-de-dispositivos-digitais-que-passam-algum-tempo-juntos_74855-5234.jpg">
                 </div>
@@ -54,11 +61,11 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-    </Section>
+    </section>
     <!-- Carousel Ends-->
-    <!-- Informações Starts -->
+    <!-- Informações Stars -->
     <Section>
-        <div class="informacoes" id="home">
+        <div class="informacoes">
             <h1>Bem vindo caro Estudante</h1>
             <h2>Por quê criar o cartão</h2>
         </div>
@@ -68,7 +75,6 @@
         </ul>
         <img id="image-info" src="image/icone-point-d-interrogation-question-noir.png" alt="">
         <img id="image-senai-grande" src="image/senaiCerto.png" alt="">
-        <img id="image-senai-pequena" src="image/senaiD.png" alt="">
     </Section>
     <!-- Informações Ends -->
     <!-- Footer Section Starts-->
@@ -123,9 +129,10 @@
 
     </section>
     <!-- Footer Section Ends-->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/Menu.js"></script>
+    <script src="js/Carousel.js"></script>
 </body>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="js/Index.js"></script>
-<script src="js/Carousel.js"></script>
 
 </html>
